@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <h1>Shubhang's Component Library</h1>
@@ -24,17 +25,17 @@
     <h2>@containers</h2>
 
     <h2>@fluid containers</h2>
-    <div>This contains fluid container and it will go till the end of the page.</div>
+    <div class="fluid-container">This contains fluid container and it will go till the end of the page.</div>
 
     <h2>@center containers</h2>
-    <div>This is the centered container and it will go till the specified width</div>
+    <div class="center-container">This is the centered container and it will go till the specified width</div>
 
     <hr>
 
     <h2>@links</h2>
 
-    <a href="/">Primary link</a>
-    <a href="/">Secondary link</a>
+    <a href="/" class="links links-primary">Primary link</a>
+    <a href="/" class="links links-secondary">Secondary link</a>
 
     <hr>
 
@@ -42,7 +43,7 @@
 
     <h3>unordered lists</h3>
 
-    <ul>
+    <ul class="lists-non-bullet">
         <li>One</li>
         <li>Two</li>
         <li>Three</li>
@@ -50,14 +51,14 @@
 
     <h3>unordered inline lists</h3>
 
-    <ul>
-        <li>Inline One</li>
-        <li>Inline Two</li>
-        <li>Inline Three</li>
+    <ul class="lists-non-bullet" >
+        <li class="inline-lists">Inline One</li>
+        <li class="inline-lists">Inline Two</li>
+        <li class="inline-lists">Inline Three</li>
     </ul>
 
     <h3>reverse ordered lists</h3>
-    <ol>
+    <ol reversed>
         <li>One</li>
         <li>Two</li>
         <li>Three</li>
